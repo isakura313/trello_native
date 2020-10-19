@@ -4,6 +4,7 @@
   "description": "trello-clone",
   "main": "index.html",
   "scripts": {
+    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/isakura313/trello_native/issues"
   },
-  "homepage": "https://github.com/isakura313/trello_native#readme"
+  "homepage": "https://github.com/isakura313/trello_native#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^3.3.4"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.5",
+    "typescript": "^4.0.3",
+    "webpack-dev-server": "^3.7.2"
+  }
 }
